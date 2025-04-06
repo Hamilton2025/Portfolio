@@ -1,48 +1,47 @@
 <!DOCTYPE html>
 <!-- /Users/Jerica/Desktop/Hamilton/Portfolio/index.html -->
- <html lang="en">
+<html lang="en">
+
 <head>
     <title>Projects</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-
-    <nav class="navbar">
-        <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-
-    <div class="image-row">
-        <figure>
-            <a href="https://www.bu.edu/lernet/artemis/years/2020/projects/FinalPresentations/HTML/historyofhtml.html" 
-               target="_blank" rel="noopener noreferrer">
-                <img src="https://cdn.vox-cdn.com/thumbor/PJmI6XyjNCNZH2LE-tMbhKhtH7w=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/3370602/Sir_Tim_Berners-Lee.0.jpg" 
-                     alt="Tim Berners-Lee">
+    <header class="header">
+        <div class="logo">
+            <a href="#">
+                <img src="img/logo.png" alt="Logo">
             </a>
-            <figcaption><strong>Tim Berners-Lee</strong></figcaption>
-        </figure>
+        </div>
+        <nav class="navbar">
+            <input type="checkbox" class="toggle-menu">
+            <div class="hamburger"></div>
+            <ul class="menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="projects">
+        <h1>My Projects</h1>
+        <div class="project-card">
+            <h3>Personal Portfolio Website</h3>
+            <p>This portfolio is an ongoing project where I demonstrate my front-end development skills. It includes sections such as Home, About, Projects and Contact. The design is responsive and interactive, and I plan to keep improving it as I learn
+                new techniques and technologies in my course. The technologies used for this project were: HTML and CSS. Please click below to check my GitHub live demo.</p>
+            <ul>
+                <li><a href="https://github.com/Hamilton2025/Portfolio.git" target="_blank">Live Demo</a></li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="project-card">
+            <h3>Fitness Progress Tracker App</h3>
+            <p>Coming soon: A fitness tracker app to help users log workouts, track progress, and set goals. Stay tuned!</p>
+            <p><em>Expected Launch: Q1 2026</em></p>
+        </div>
+    </section>
 
-        <figure>
-            <a href="https://www.bu.edu/lernet/artemis/years/2020/projects/FinalPresentations/HTML/historyofcss.html" 
-               target="_blank" rel="noopener noreferrer">
-                <img src="https://sfi.pl/media/images/original_imageshaakon.57f10e62.fill-350x350.format-webp.webp" alt="Ã¥kon Wium Lie" width="550" height="200">
-            </a>
-            <figcaption><strong>Håkon Wium Lie</strong></figcaption>
-        </figure>
-
-        <figure>
-            <a href="https://en.wikipedia.org/wiki/Brendan_Eich" target="_blank" rel="noopener noreferrer">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Brendan_Eich_Mozilla_Foundation_official_photo.jpg/800px-Brendan_Eich_Mozilla_Foundation_official_photo.jpg" 
-                     alt="Brendan Eich" width="300" height="200">
-            </a>
-            <figcaption><strong>Brendan Eich</strong></figcaption>
-        </figure>
-    </div>
-
-</body>
 </html>
-
