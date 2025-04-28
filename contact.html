@@ -3,36 +3,63 @@
 <html lang="en">
 
 <head>
+    <meta charset="utf-8">
     <title>Contact</title>
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/88a3b8ac6f.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header class="header">
-        <div class="logo">
-            <a href="#">
-                <img src="img/logo.png" alt="Logo">
-            </a>
-        </div>
-        <nav class="navbar">
-            <input type="checkbox" class="toggle-menu">
-            <div class="hamburger"></div>
-            <ul class="menu">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+             <i class="fas fa-bars" id="btn"></i>
+             <i class="fas fa-times" id="cancel"></i>
+            </label>
+            <label class="logo">Hamilton Domingos</label>
+            <ul>
                 <li><a href="home.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-    </header>
-    <section>
-        <h3>Contact Page</h3>
-    </section>
-    <div class="contact-info">
-        <p><strong>Address:</strong>Manchester, United Kingdom</p>
-        <p><strong>Email:</strong><a href="mailto:hamilton.fernandosh@gmail.com">hamilton.fernandosh@gmail.com</a></p>
-        <p><strong>Linkedln:</strong><a href="https://www.linkedin.com/in/hamilton-domingos-8a75ab329/" target="_blank">linkedin.com/in/hamilton-domingos-8a75ab329</a></p>
-        <p><strong>GitHub:</strong><a href="https://github.com/Hamilton2025" target="_blank">My GitHub</a>
+    <div class="contact">
+        <h1>Contact Me</h1>
+    </div>
+    <div class="card-container">
+        <img src="img/contact-me.png" alt="Contact Image" class="contact-me">
+    
+        <div class="cards-wrapper">
+            <div class="contact-card">
+                <p><i class="fas fa-envelope icon"></i><strong>Email</strong><br> 
+                    <a href="mailto:hamilton.fernandosh@gmail.com">hamilton.fernandosh@gmail.com</a>
+                </p>
+            </div>
+    
+            <div class="contact-card">
+                <p><i class="fab fa-linkedin icon"></i><strong>LinkedIn</strong><br> 
+                    <a href="https://www.linkedin.com/in/hamilton-domingos-8a75ab329/" target="_blank">
+                        linkedin.com/in/hamilton-domingos-8a75ab329
+                    </a>
+                </p>
+            </div>
+    
+            <div class="contact-card">
+                <p><i class="fab fa-github icon"></i><strong>GitHub</strong><br> 
+                    <a href="https://github.com/Hamilton2025" target="_blank">github.com/Hamilton2025</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="floating-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
     </div>
 </body>
 

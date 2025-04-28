@@ -3,81 +3,83 @@
 <html lang="en">
 
 <head>
+    <meta charset="utf-8">
     <title>About</title>
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/88a3b8ac6f.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header class="header">
-        <div class="logo">
-            <a href="#">
-                <img src="img/logo.png" alt="Logo">
-            </a>
-        </div>
-        <nav class="navbar">
-            <input type="checkbox" class="toggle-menu">
-            <div class="hamburger"></div>
-            <ul class="menu">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+             <i class="fas fa-bars" id="btn"></i>
+             <i class="fas fa-times" id="cancel"></i>
+            </label>
+            <label class="logo">Hamilton Domingos</label>
+            <ul>
                 <li><a href="home.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-    </header>
-    <h3>Summary</h3>
-    <h4>A proactive and results-driven aspiring future front-end developer with strong communication, leadership, organisational, and problem-solving skills. Experienced in team management, delivering excellent customer service, and producing high-quality results. Proven success in roles such as Warehouse Team Leader, Administrator, Insurance Advisor, and Manager. Currently enhancing technical skills through a front-end development course, demonstrating a passion for technology and continuous growth. Eager to leverage transferable skills and new technical knowledge to thrive in a front-end development role.</h4>
-    <section>
-        <h3>Work Experience</h3>
+    <section class="about-me">
+        <h1>About me</h1>
+        <!-- Personal Info -->
+        <div class="about">
+            <h3><i class="fas fa-user"></i> Personal Info</h3>
+            <p><strong>Name:</strong> Hamilton Domingos</p>
+            <p><strong>Location:</strong> Manchester, UK</p>
+            <p><strong>Languages:</strong> English, Portuguese</p>
+            <p><strong>Available:</strong> Full-time</p>
+        </div>
+        <div class="about">
+            <h3><i class="fa-solid fa-briefcase"></i> Work Experience</h3>
+                <p><strong>Warehouse Team Leader, GXO Logistics</strong></p>
+                    <small>July 2022 - Present</small>
+                <p><strong>Insurance Advisor, Sanlam Seguros Angola</strong></p>
+                    <small>April 2015 - Dec 2022</small>
+                <p><strong>Rent a Car Manager, Ekalu</strong></p>
+                    <small>January 2012 - March 2015</small>
+        </div>
+        <!-- Education -->
+        <div class="about">
+            <h3><i class="fa-solid fa-user-graduate"></i> Education</h3>
+            <p><strong>Learning People</strong></p>
+            <p>Front End Developer PLUS Course - BCS Affiliate</p>
+        </div>
+        <!-- Skills -->
+        <div class="about">
+            <h3><i class="fa-solid fa-screwdriver-wrench"></i> Skills</h3>
+            <div class="skills">
+                <p>HTML5 and CSS</p>
+                <p>Web Development</p>
+                <p>Communication</p>
+                <p>Organisational</p>
+                <p>Leadership</p>
+                <p>Administration</p>
+                <p>Git & GitHub</p>
+            </div>
+        </div>
+         <!-- Certificates -->
+        <div class="about">
+            <h3><i class="fa-solid fa-certificate"></i> Certificates</h3>
+            <div class="certificate">
+                <p>Fire Marshal (UK-FM-100)</p>
+                <p>First Aider</p>
+            </div>
+        </div>
     </section>
-    <div class="column">
-        <figure>
-            <img src="https://media.istockphoto.com/id/1753682564/photo/warehouse-pickers.jpg?s=1024x1024&w=is&k=20&c=cxB_KIqanvmBbjwsAXwYNQ5KALPXVuz9xNP_Hezm6UY=" alt="Warehouse">
-            <figcaption><strong>Warehouse Admin/Operative</strong></figcaption>
-        </figure>
-        <br>
-        <figure>
-            <img src="https://media.istockphoto.com/id/1199060494/photo/insurance-protecting-family-health-live-house-and-car-concept.jpg?s=612x612&w=0&k=20&c=W8bPvwF5rk7Rm2yDYnMyFhGXZfNqK4bUPlDcRpKVsB8=" alt="Hamilton">
-            <figcaption><strong>Insurance Advisor</strong></figcaption>
-        </figure>
-        <br>
-        <figure>
-            <img src="https://cdn.vectorstock.com/i/500p/44/89/rent-a-car-design-over-background-vector-52494489.avif" alt="Hamilton">
-            <figcaption><strong>Rent a Car Manager </strong></figcaption>
-        </figure>
+    <div class="floating-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
     </div>
-    <section>
-        <h3>Education</h3>
-        <h4>Learning People</h4>
-        <div class="education">
-            <ul>
-                <li>Front End Developer PLUS Course - BCS Affiliate</li>
-            </ul>
-        </div>
-    </section>
-    <section>
-        <h3>Skills</h3>
-        <div class="education">
-            <ul>
-                <li>HTML5 and CSS</li>
-                <li>Web Development</li>
-                <li>Communication</li>
-                <li>Organisational</li>
-                <li>Leadership</li>
-                <li>Administration</li>
-            </ul>
-        </div>
-    </section>
-    <section>
-        <h3>Certificates</h3>
-        <div class="education">
-            <ul>
-                <li>Fire Marshal (UK-FM-100)</li>
-                <li>First Aider</li>
-            </ul>
-        </div>
-    </section>
-
 </body>
 
 </html>

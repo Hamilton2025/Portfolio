@@ -3,45 +3,58 @@
 <html lang="en">
 
 <head>
+    <meta charset="utf-8">
     <title>Projects</title>
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/88a3b8ac6f.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header class="header">
-        <div class="logo">
-            <a href="#">
-                <img src="img/logo.png" alt="Logo">
-            </a>
-        </div>
-        <nav class="navbar">
-            <input type="checkbox" class="toggle-menu">
-            <div class="hamburger"></div>
-            <ul class="menu">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+             <i class="fas fa-bars" id="btn"></i>
+             <i class="fas fa-times" id="cancel"></i>
+            </label>
+            <label class="logo">Hamilton Domingos</label>
+            <ul>
                 <li><a href="home.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-    </header>
-    <section id="projects">
+    <div class="projects">
         <h1>My Projects</h1>
+    </div>
+    <section class="project-container">
+     <div class="project-grid">
         <div class="project-card">
-            <h3>Personal Portfolio Website</h3>
-            <p>This portfolio is an ongoing project where I demonstrate my front-end development skills. It includes sections such as Home, About, Projects and Contact. The design is responsive and interactive, and I plan to keep improving it as I learn
-                new techniques and technologies in my course. The technologies used for this project were: HTML and CSS. Please click below to check my GitHub live demo.</p>
-            <ul>
-                <li><a href="https://github.com/Hamilton2025/Portfolio.git" target="_blank">Live Demo</a></li>
-            </ul>
+            <img src="img/Portfolio.png" alt="Portfolio">
+                <h4>Personal Portfolio Website</h4>
+            <p>This portfolio is an ongoing project where I demonstrate my front-end development skills. It includes sections such as Home, About, Skills, Projects and Contact. The design is responsive and interactive, and I plan to keep improving it as I learn
+                new techniques and technologies in my course. The technologies used for this project were: <strong>HTML and CSS</strong>. Please click below to check my GitHub live demo.</p>
+         <div class="demo">
+            <p><a href="https://github.com/Hamilton2025/Portfolio.git" target="_blank">Live Demo</a></p>
+         </div>
         </div>
-    </section>
-    <section>
         <div class="project-card">
-            <h3>Fitness Progress Tracker App</h3>
+            <img src="img/Comingsoon.png" alt="Comingsoon">
+                <h4>Fitness Progress Tracker App</h4>
             <p>Coming soon: A fitness tracker app to help users log workouts, track progress, and set goals. Stay tuned!</p>
             <p><em>Expected Launch: Q1 2026</em></p>
         </div>
+     </div>
     </section>
+    <div class="floating-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+</body>
 
 </html>
