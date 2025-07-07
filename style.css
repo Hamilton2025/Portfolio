@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 5;
+    padding: 0px;
     list-style: none;
     text-decoration: none;
 }
@@ -21,12 +21,13 @@ nav{
     backdrop-filter: blur(10px);
 }
 
-label.logo {
+.logo {
     color: rgb(44, 116, 121);
-    font-size: 22px;
+    font-size: 30px;
     font-weight: bold;
     line-height: 80px;
     margin: 0 15px;
+    font-family: "Fascinate", system-ui;
 }
 
 nav ul{
@@ -43,8 +44,9 @@ nav ul li{
 nav ul li a{
     position:relative;
     color:white;
-    font-size:22px;
-    padding: 5px 0;
+    font-size: 30px;
+    padding: 10px;
+    font-family: "Kirang Haerang", system-ui;
 }
 
 nav ul li a:before{
@@ -80,7 +82,7 @@ label #cancel{
     display:none;
 }
 
-/*h1 to h4*/ 
+/*h1, h2 & h4*/ 
 h1 {
     text-align: left;
     padding-top: 90px;
@@ -97,20 +99,18 @@ h1 {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 2.6rem;
+    font-family: "Fredericka the Great", serif;
     color: rgb(44, 116, 121);
-    text-decoration: underline;
+    font-size: 45px;
 }
 
 .contact h1 {
     text-align:right;
     padding-top: 10px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 2.6rem;
+    font-family: "Fredericka the Great", serif;
+    font-size: 45px;
     color: rgb(44, 116, 121);
-    text-decoration: underline;
-    margin-right: 300px;
+    margin-right: 400px;
 }
 
 h2 {
@@ -122,20 +122,8 @@ h2 {
     word-spacing: 0.3em;
 }
 
-h3 {
-    font-family: 'Bebas Neue', sans-serif;
-    text-align: center;
-    font-style: italic;
-    color: #d73c3ce1;
-    background-color: rgba(18, 76, 126, 0.238);
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
 h4 {
-    font-family: 'Bebas Neue', sans-serif;
-    font-style: normal;
-    font-size: medium;
+    font-family: "Chewy", system-ui;
     text-align: justify;
     color: #e2eef1;
 }
@@ -257,6 +245,16 @@ h4 {
     margin-top:30px;
 }
 
+.home-left h1 {
+    font-family: "Fascinate", system-ui;
+    font-size: 50px;
+}
+
+.home-left h2 {
+    font-family: "Kirang Haerang", system-ui;
+    font-size: 50px;
+}
+
 .home-left p {
     max-width: 520px;
     text-align: justify;
@@ -311,9 +309,9 @@ h4 {
 } 
 
 .about h3{
-    font-size: 1.6rem;
+    font-family: "Chewy", system-ui;
+    font-size: 30px;
     color: #03dac6;
-    margin-bottom: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -321,6 +319,7 @@ h4 {
     background-color: rgba(4, 41, 55, 0.8);
     padding: 10px;
     border-radius: 8px;
+    margin: 10px 10px;
 }
 
 .about p{
@@ -391,7 +390,7 @@ h4 {
 }
 
 .skill-card h4 {
-    font-size: 18px;
+    font-size: 22px;
     text-align: center;
     color: #f1ecec;
     margin-bottom: 10px;
@@ -436,7 +435,7 @@ h4 {
 }
 
 .project-card h4 {
-    font-size: 19px;
+    font-size: 25px;
     text-align: center;
     color: #e23535;
     margin-bottom: 10px;
@@ -459,7 +458,7 @@ h4 {
 }
 
 .project-card p {
-    font-size: 16px;
+    font-size: 15px;
     text-align: justify;
 }
 
@@ -469,16 +468,15 @@ h4 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 50px;
     max-width: 1200px;
     margin: auto;
     position: relative;
 }
 
-.contact-me img{
-    width: 90px;
+.card-container img{
+    width: 400px;
     height: auto;
-    max-width: 90%;
     margin-top: 30px;
 }
 
@@ -491,8 +489,8 @@ h4 {
 
 .contact-card {
     background: rgba(18, 76, 126, 0.294);
-    padding: 30px 20px;
-    width: 100%;
+    padding: 30px 15px;
+    width: 90%;
     min-height: 60px;
     text-align: center;
     border-radius: 20px;
@@ -509,9 +507,8 @@ h4 {
 
 .icon {
     color: #e92354;
-    margin-right: 8px;
+    margin: 0px 10px;
     font-size: 3rem;
-
 }
 
 .contact-card p {
@@ -523,24 +520,6 @@ h4 {
 }
 
 /*Responsive Screen*/
-@media (max-width: 600px) {
-    label.logo {
-        font-size: 1.2rem; 
-    }
-}
-
-@media (max-width: 944px){
-    label.logo{
-        left:6%;
-        top:20px;
-        width: 130px;
-    }
-
-    nav ul li a{
-        font-size: 17px;
-    }
-}
-
 @media (max-width: 860px){
     label #btn{
         display:block;
@@ -555,19 +534,19 @@ h4 {
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 1001;
+    z-index: 1000;
     }
 
-    ul{
-        position:fixed;
+    ul {
+        position: absolute;
         width: 100%;
         height: 100vh;
-        background:rgb(4, 41, 55);
-        top:80px;
+        background: rgb(4, 41, 55);
+        top: 80px;
         left: -100%;
         text-align: center;
-        transition: all .5s;
-        z-index: 1000; 
+        transition: all 0.5s ease;
+        z-index: 1000;
     }
 
     nav ul li{
@@ -580,8 +559,8 @@ h4 {
         font-size: 20px;
     }
 
-    #check:checked ~ ul{
-        left:0;
+    #check:checked ~ ul {
+        left: 0;
     }
 
     #check:checked ~ label #btn{
@@ -653,10 +632,17 @@ h4 {
         width: 250px;
         margin: auto;
     }
+
+    .about-me h1,
+    .projects h1,
+    .skills-tech h1,
+    .contact h1 {
+    font-size: 30px;
+}
 }
 
 @media (max-width: 240px) {
-    label.logo {
+    .logo {
       font-size: 5vw;
       max-width: 55%;
     }
