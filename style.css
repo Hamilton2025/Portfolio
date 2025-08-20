@@ -440,16 +440,18 @@ h4 {
     margin-bottom: 10px;
 }
 
-.demo {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.demo a {
+.project-card a {
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgba(26, 130, 171, 0.15);
     display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    margin-top: 10px;
     color: #e92354;
     text-decoration: none;
-    font-weight: bold;
+    border-radius: 6px;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 .project-card a:hover {
@@ -519,7 +521,7 @@ h4 {
 }
 
 /*Responsive Screen*/
-@media (max-width: 860px){
+@media screen and (max-width: 1084px){
     label #btn{
         display:block;
     }
@@ -529,7 +531,7 @@ h4 {
     }
 
     nav {
-    position: fixed;
+    position: absolute;
     width: 100%;
     top: 0;
     left: 0;
@@ -552,9 +554,14 @@ h4 {
         display:block;
         margin: 50px 0;
         line-height: 30px;
+        padding: 10px;
     }
 
     nav ul li a{
+        font-size: 35px;
+    }
+
+    .logo{
         font-size: 20px;
     }
 
@@ -588,20 +595,11 @@ h4 {
     .about {
         padding: 1rem;
     }
-      .about-me h1 {
+    .about-me h1 {
         font-size: 1.8rem;
     }
-      .about h3 {
+    .about h3 {
         font-size: 1.3rem;
-    }
-
-    .skills-section {
-        scroll-snap-type: y mandatory;
-        overflow-y: scroll;
-    }
-
-    .skill-card {
-        scroll-snap-align: center;
     }
 
     .project-grid {
@@ -623,12 +621,12 @@ h4 {
         flex-direction: column;
     }
 
-    .cards-wrapper {
+    .cards-wrapper, .home-container {
         width: 100%;
     }
 
-    .contact-me {
-        width: 250px;
+    .contact-me, .home-container {
+        width: 300px;
         margin: auto;
     }
 
@@ -640,10 +638,4 @@ h4 {
 }
 }
 
-@media (max-width: 240px) {
-    .logo {
-      font-size: 5vw;
-      max-width: 55%;
-    }
-}
 
