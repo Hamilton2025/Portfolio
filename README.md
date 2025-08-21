@@ -33,19 +33,19 @@ To verify correct functionality, responsiveness, and visual appearance:
 1. **Website was opened in different browsers** (Chrome and Firefox) to check compatibility.  
 
 - **Chrome**
-![alt text](<Chrome result 1.png>) 
-![alt text](<Chrome result 2.png>) 
-![alt text](<Chrome result 3.png>) 
-![alt text](<Chrome result 4.png>) 
-![alt text](<Chrome result 5.png>)
+![alt text](<chrome result 1.png>) 
+![alt text](<chrome result 2.png>) 
+![alt text](<chrome result 3.png>) 
+![alt text](<chrome result 4.png>) 
+![alt text](<chrome result 5.png>)
 
 - **Firefox**
-![alt text](<Firefox result 1.png>) 
-![alt text](<Firefox result 2.png>) 
-![alt text](<Firefox result 3.png>)
+![alt text](<firefox result 1.png>) 
+![alt text](<firefox result 2.png>) 
+![alt text](<firefox result 3.png>)
 
 2. **The website’s responsiveness was also verified using the Chrome extension - Responsive Viewer**
-![alt text](<Responsive viewer result.png>)
+![alt text](<responsive viewer result.png>)
 
 3. **The HTML code has been validated and passed the W3C HTML standards check**
 ![alt text](<W3C HTML result.png>)
