@@ -45,7 +45,8 @@ To verify correct functionality, responsiveness, and visual appearance:
 ![alt text](<firefox result 3.png>)
 
 2. **The website’s responsiveness was also verified using the Chrome extension - Responsive Viewer**
-![alt text](<responsive viewer result.png>)
+![alt text](<responsive viewer result 1.png>) 
+![alt text](<responsive viewer result 2.png>)
 
 3. **The HTML code has been validated and passed the W3C HTML standards check**
 ![alt text](<W3C HTML result.png>)
