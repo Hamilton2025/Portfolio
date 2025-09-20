@@ -1,8 +1,8 @@
-![alt text](Img/Portfolio.png)
+![alt text](Assets/Img/Portfolio.png)
 # Overview
 Welcome to **Hamilton Domingos’s Portfolio**! A sleek and responsive personal website built with HTML and CSS—designed to highlight my front-end skills, creativity, and projects in a clean, modern style.
 
-The website can be accessed here: [My Live Portfolio](https://hamilton2025.github.io/Portfolio/)
+The website can be accessed here: [My Live Portfolio]®
 
 # Features
 - **Responsive navigation bar**  
@@ -33,30 +33,30 @@ To verify correct functionality, responsiveness, and visual appearance:
 1. **Website was opened in different browsers** (Chrome and Firefox) to check compatibility.  
 
 - **Chrome**
-![alt text](<chrome result 1.png>) 
-![alt text](<chrome result 2.png>) 
-![alt text](<chrome result 3.png>) 
-![alt text](<chrome result 4.png>) 
-![alt text](<chrome result 5.png>)
+![alt text](<Assets/Results/chrome result 1.png>) 
+![alt text](<Assets/Results/chrome result 2.png>) 
+![alt text](<Assets/Results/chrome result 3.png>) 
+![alt text](<Assets/Results/chrome result 4.png>) 
+![alt text](<Assets/Results/chrome result 5.png>)
 
 - **Firefox**
-![alt text](<firefox result 1.png>) 
-![alt text](<firefox result 2.png>) 
-![alt text](<firefox result 3.png>)
+![alt text](<Assets/Results/firefox result 1.png>) 
+![alt text](<Assets/Results/firefox result 2.png>) 
+![alt text](<Assets/Results/firefox result 3.png>)
 
 2. **The website’s responsiveness was also verified using the Chrome extension - Responsive Viewer**
-![alt text](<responsive viewer result 1.png>) 
-![alt text](<responsive viewer result 2.png>)
+![alt text](<Assets/Results/responsive viewer result 1.png>) 
+![alt text](<Assets/Results/responsive viewer result 2.png>)
 
 3. **The HTML code has been validated and passed the W3C HTML standards check**
-![alt text](<W3C HTML result.png>)
+![alt text](<Assets/Results/W3C HTML result.png>)
 
 4. **The CSS code has been validated and passed the W3C CSS standards check**
-![alt text](<W3C CSS result.png>)
+![alt text](<Assets/Results/W3C CSS result.png>)
 
 5. **Lighthouse**
 - The site has been assessed using Lighthouse across key areas—Performance, Accessibility, Best Practices, and SEO.
-![alt text](<Lighthouse result.png>)
+![alt text](<Assets/Results/Lighthouse result.png>)
 
 # Contact
 I’m happy to receive any suggestions or feedback. If you have questions or comments about my projects, feel free to get in touch.
