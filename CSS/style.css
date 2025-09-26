@@ -463,63 +463,6 @@ h4 {
     text-align: justify;
 }
 
-/*Contact Page*/
-.card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    max-width: 1200px;
-    margin: auto;
-    position: relative;
-}
-
-.card-container img{
-    width: 400px;
-    height: auto;
-    margin-top: 30px;
-}
-
-.cards-wrapper {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.contact-card {
-    background: rgba(18, 76, 126, 0.294);
-    padding: 30px 15px;
-    width: 90%;
-    min-height: 60px;
-    text-align: center;
-    border-radius: 20px;
-    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-    overflow: auto;
-    align-content: center;
-}
-
-.contact-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0px 15px 40px rgba(0,0,0,0.2);
-}
-
-.icon {
-    color: #e92354;
-    margin: 0px 10px;
-    font-size: 3rem;
-}
-
-.contact-card p {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    text-align: left;
-    justify-content: flex-start;
-}
-
 /*Responsive Screen*/
 @media screen and (max-width: 1084px){
     label #btn{
@@ -637,5 +580,3 @@ h4 {
     font-size: 30px;
 }
 }
-
-
