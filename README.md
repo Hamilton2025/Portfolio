@@ -2,7 +2,7 @@
 # Overview
 Welcome to **Hamilton Domingos’s Portfolio**! A sleek and responsive personal website built with HTML and CSS—designed to highlight my front-end skills, creativity, and projects in a clean, modern style.
 
-The website can be accessed here: [My Live Portfolio]®
+The website can be accessed here: [Live Demo](https://hamilton2025.github.io/Portfolio/)
 
 # Features
 - **Responsive navigation bar**  
